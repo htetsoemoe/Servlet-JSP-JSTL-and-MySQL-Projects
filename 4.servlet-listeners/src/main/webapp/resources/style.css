@@ -1,0 +1,134 @@
+
+.container .table{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+}
+
+.container .show-cart-container .shopping-cart-lable{
+	width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 240px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* This style for shopping cart svg */
+.shopping-cart-photo{
+	width: 40px;
+	height: 40px;
+}
+
+/* This style for shopping cart svg photo link a tag */
+.container .show-cart-container .shopping-cart{
+	width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+
+/* This style for shopping cart svg photo <span class="badge"> */
+.shopping-cart .badge{
+	position: absolute;
+	top: -30px;
+	right: -10px;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+
+.container .clear-cart{
+	width: 300px;
+	height: 50px;
+	margin-left: 240px;
+	text-align: left;
+	padding-top: 30px;
+}
+
+.container .clear-cart a{
+	text-decoration: none;
+	width: 300px;
+    height: 50px;
+    background-color: orange;
+    padding: 7px;
+    border-radius: 5px;
+    color: black;
+}
+
+/*
+.table {
+	border: 1px solid black;
+}
+*/
+
+table tr th {
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color: #5e6363;
+	/*	border: 1px solid black; */
+}
+
+table tr td {
+	height: 40px;
+/*	border: 1px solid black; */
+}
+
+table tr td:nth-child(1) {
+	text-align: center;
+	font-size: 18px;
+}
+
+table tr td:nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5) {
+	text-align: center;
+	font-size: 18px;
+}
+
+table tr td a {
+	text-decoration: none;
+	width: 200px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+}
+
+table tr:nth-child(even) {
+	background-color: #D6EEEE;
+}
+
+.container .sale-history{
+	width: 300px;
+	height: 50px;
+	margin-left: 240px;
+	text-align: left;
+	padding-top: 30px;	
+}
+
+.container .sale-history a{
+	text-decoration: none;
+	width: 300px;
+    height: 50px;
+    background-color: orange;
+    padding: 7px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+

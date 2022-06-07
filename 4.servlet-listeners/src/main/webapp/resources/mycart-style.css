@@ -1,0 +1,112 @@
+
+
+.container .table{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.header{
+	text-align: center;
+}
+
+.title {
+	width: 400px;
+    height: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+table tr th {
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	background-color: #5e6363;
+}
+
+table tr td {
+	height: 40px;
+}
+
+ table tr:nth-child(even) {
+	background-color: #D6EEEE;
+} 
+
+
+
+table tr td:nth-child(1),:nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5)  {
+	text-align: center;
+	font-size: 18px;
+}
+
+table tr:last-child {
+	background-color: darkcyan;
+	color: white;
+} 
+
+table tr:last-child>td:nth-child(1){
+	font-size: 22px;
+}
+
+table tr:last-child>td:nth-child(2){
+	font-size: 22px;
+}
+
+table tr:last-child>td:nth-child(4){
+	font-size: 22px;
+}
+
+
+/* table tr:nth-child(even) {
+	background-color: #D6EEEE;
+} */
+
+.container .home {
+	width: 400px;
+	height: 50px;
+	margin-left: 235px;
+	text-align: left;
+	/* padding-top: 30px;	 */	
+}
+
+.home a{
+	text-decoration: none;
+	width: 400px;
+    height: 50px;
+    background-color: orange;
+    padding: 7px;
+    border-radius: 5px;
+    color: black;
+}
+
+.button {
+	text-decoration: none;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: orange;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.user-input-form{
+	width: 500px;
+    height: 50px;
+    padding: 50px 50px 50px 0;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+
+.submit-button{
+	background-color: orange;
+	color: black;
+}

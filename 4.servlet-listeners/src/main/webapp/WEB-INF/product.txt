@@ -1,0 +1,5 @@
+Food	Potato Chips	500
+Food	Fish Chips	500
+Cold Drink	Pepsi 350	450
+Cold Drink	Pepsi 500	700
+Cold Drink	Nest Cafe Black	600
